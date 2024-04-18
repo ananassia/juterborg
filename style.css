@@ -1,0 +1,1223 @@
+/* ПОДКЛЮЧЕНИЕ ШРИФТОВ */
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Oswald:wght@600&display=swap');
+
+/* font-family: 'Oswald', sans-serif; */
+
+@font-face {
+    font-family: 'Proxima Nova';
+    font-weight: 600;
+    font-style: normal;
+    src: url('fonts/ProximaNova-Black.ttf');
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+    transition: .2s;
+}
+
+.w-normal {
+    width: 80%;
+    margin: auto;
+}
+
+.w-60 {
+    width: 60%;
+    margin: auto;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+h1 {
+    font-size: 26px;
+}
+
+h2 {
+    font-size: 20px;
+}
+
+p {
+    font-size: 16px;
+}
+
+.font-14 {
+    font-size: 14px;
+}
+
+.font-18 {
+    font-size: 18px;
+}
+
+.font-20 {
+    font-size: 20px;
+}
+
+.font-26 {
+    font-size: 26px;
+}
+
+.underline {
+    text-decoration: underline;
+}
+
+/* ====================================HEADER================================== */
+header {
+    padding: 50px;
+    background-image: url(/image/фон.png);
+    background-size: 101%;
+    background-repeat: no-repeat;
+    padding-bottom: 80px;
+}
+
+/* =======NAVIGATION========= */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo_img {
+    width: 205px;
+    object-fit: contain;
+}
+
+.div_call {
+    display: flex;
+    gap: 60px;
+    align-items: center;
+}
+
+.div_number {
+    display: flex;
+    gap: 10px;
+    color: white;
+    align-items: center;
+}
+
+.div_number img {
+    width: 15px;
+    height: 15px;
+}
+
+/* кнопка ЗАКАЗАТЬ ЗВОНОК */
+.button_call {
+    border: 1px solid #FFD200;
+    color: #FFD200;
+    padding: 17px 27px;
+}
+
+.button_call:hover {
+    background-color: #FFD200;
+    color: rgba(255, 255, 255, 0.853);
+}
+
+/* header */
+.header img {
+    width: 100%;
+    opacity: 0;
+}
+
+/* СПЕЦТЕХНИКА */
+h4 {
+    font-size: 90px;
+    font-family: 'Oswald', sans-serif;
+    position: absolute;
+    top: 148.18px;
+    font-size: 89.9436px;
+    line-height: 133px;
+    letter-spacing: 0.02em;
+    background: linear-gradient(180deg, #FFD200 19.73%, #FFD200 19.75%, #FFFFFF 212.53%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+/* В ЛИЗИНГ */
+h3 {
+    font-family: 'Oswald', sans-serif;
+    position: absolute;
+    top: 231.93px;
+    font-size: 207.405px;
+    line-height: 307px;
+    letter-spacing: 0.01em;
+    background: linear-gradient(180deg, #FFFFFF 23.82%, rgba(255, 255, 255, 0.2) 117.55%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+/* форма ОСТАВЬТЕ ЗАЯВКУ */
+.black_form {
+    background-color: black;
+    width: 100%;
+    padding-bottom: 70px;
+}
+
+.form_header div {
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
+    align-items: flex-end;
+    margin-top: -20px;
+    justify-content: space-between;
+    padding-right: 100px;
+}
+
+.form_header {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.form_header h1 {
+    color: #FFD200;
+}
+
+.form_header input[type="text"],
+.form_header input[type="tel"],
+.form_header input[type="email"] {
+    height: 30px;
+    width: 25%;
+    background-color: black;
+    color: white;
+    accent-color: white;
+    border: none;
+    border-bottom: .5px solid white;
+    font-size: 15px;
+}
+
+.header_button {
+    background-color: #FFD200;
+    height: 58px;
+    width: 159px;
+}
+
+.header_button:hover {
+    color: #FFD200;
+    border: 1px solid #FFD200;
+    background-color: black;
+}
+
+
+/* обработка персональных данных */
+.personal_data {
+    display: flex;
+    gap: 4px;
+    flex-wrap: wrap;
+    color: #C1C1C1;
+}
+
+.personal_data a {
+    color: #C1C1C1;
+}
+
+/* ====================================MAIN================================== */
+main {
+    margin-top: 65px;
+    display: flex;
+    flex-direction: column;
+    gap: 65px;
+}
+
+/* s1 3 simple steps - 3 простых шага  */
+.section_steps {
+    display: flex;
+    flex-direction: column;
+    gap: 70px;
+    align-items: center;
+}
+
+.container_steps {
+    display: flex;
+    gap: 80px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+h5 {
+    color: #FFD200;
+    font-size: 171px;
+    font-family: 'Proxima Nova';
+}
+
+.steps {
+    width: 335px;
+}
+
+.steps p {
+    margin-bottom: 20px;
+}
+
+/* s2 ADVANTAGES OF THE COMPANY - преимущества компании */
+
+/* 1 block */
+.container_advantages {
+    display: flex;
+    gap: 130px;
+}
+
+.div_advantages {
+    display: flex;
+    flex-direction: column;
+    gap: 55px;
+}
+
+.icons_advantages {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.advantages {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 186px;
+}
+
+.container_advantages img {
+    width: 41%;
+    object-fit: contain;
+    margin-bottom: -15px;
+}
+
+.advantages img {
+    width: 53px;
+    height: 53px;
+    object-fit: contain;
+}
+
+/* 2 block */
+.container_advantages2 {
+    display: flex;
+    align-items: center;
+}
+
+.container_advantages2 img {
+    width: 65%;
+    object-fit: contain;
+}
+
+.div_model h1 {
+    width: 180px;
+}
+
+.orange_rectangle {
+    background-color: #FFD200;
+    width: 102px;
+    height: 238px;
+    margin-left: -70px;
+    padding-top: 68px;
+    padding-left: 70px;
+}
+
+/* подробнее */
+.div_arrow {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin-left: 50px;
+    margin-top: 35px;
+}
+
+.div_arrow:hover {
+    text-decoration: underline;
+}
+
+.div_arrow img {
+    width: 41px;
+    height: 15px;
+}
+
+/* калькулятор - calculator */
+
+iframe {
+    height: 900px;
+}
+
+/* s4 about leasing - коротко о лизинге */
+.gray_rectangle {
+    background-color: #F3F4F5;
+    width: 55%;
+    height: 515px;
+    position: absolute;
+    z-index: -1;
+}
+
+.about_leasing {
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+}
+
+.container_leasing {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container_leasing img {
+    width: 680px;
+    height: 366px;
+}
+
+.leasing_rectangle {
+    margin-top: -90px;
+    width: 132px;
+    height: 130px;
+    align-self: center;
+}
+
+/* SLIDER - слайдер */
+.slider {
+    width: 631px;
+    height: 278px;
+    background-color: white;
+    box-shadow: 0px 4.04692px 16.1877px rgba(0, 0, 0, 0.15);
+    margin-right: -50px;
+    z-index: 1;
+}
+
+.slider_leasing {
+    padding: 10px 50px;
+}
+
+.slider_leasing div {
+    flex-wrap: wrap;
+}
+
+.slick-track {
+    transition: none;
+}
+
+/* переключатели */
+.slider_leasing .slick-prev {
+    left: 530px;
+    top: -43px;
+}
+
+.slider_leasing .slick-prev {
+    width: 28px;
+    height: 28px;
+    border-radius: 50%;
+    background-color: transparent;
+    border: 1px solid #84959e;
+    font-size: 0;
+    cursor: pointer;
+}
+
+.slider_leasing .slick-prev::before {
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    content: "\f104";
+    font-size: 13px;
+    color: #8E8E8E;
+    position: relative;
+    z-index: 10;
+    width: 28px;
+    height: 28px;
+    top: 1px;
+    border-radius: 100%;
+
+}
+/* 
+.slider_leasing .slick-prev:hover {
+    background-color: #FFD200;
+    border: .5px solid #FFD200;
+    transform: scale(1.2);
+    top: -58px;
+} */
+
+.slick-prev:hover .slick-prev::before {
+    color: #fff;
+}
+
+.slider_leasing .slick-next {
+    right: 30px;
+    top: -43px;
+}
+
+.slider_leasing .slick-next {
+    width: 28px;
+    height: 28px;
+    border-radius: 50%;
+    background-color: transparent;
+    border: 1px solid #84959e;
+    font-size: 0;
+    cursor: pointer;
+}
+
+.slider_leasing .slick-next::before {
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    content: "\f105";
+    font-size: 13px;
+    color: #8E8E8E;
+    position: relative;
+    z-index: 10;
+    width: 28px;
+    height: 28px;
+    top: 1px;
+    right: -1px;
+    border-radius: 100%;
+}
+
+/* .slider_leasing .slick-next:hover {
+    background-color: #FFD200;
+    border: .5px solid #FFD200;
+    transform: scale(1.2);
+    top: -58px;
+} */
+
+
+.slider_buttons {
+    display: flex;
+    gap: 10px;
+    justify-content: flex-end;
+    padding: 30px 40px;
+}
+
+
+.slider_bt {
+    width: 28px;
+    height: 28px;
+    border-radius: 100%;
+}
+
+
+/* s5 online application - ОНЛАЙН-ЗАЯВКА НА ЛИЗИНГ */
+
+.yellow_rectangle {
+    width: 100%;
+    position: absolute;
+    height: 500px;
+    background-color: #FFD200;
+    z-index: -1;
+    margin-top: 80px;
+    left: 0;
+}
+
+.online_lizing {
+    background: #F3F4F5;
+    box-shadow: 0px 0px 14px rgba(0, 0, 0, 0.25);
+    padding: 60px 20%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 25px;
+}
+
+.online_lizing input[type="text"],
+.online_lizing input[type="tel"],
+.online_lizing input[type="email"] {
+    width: 100%;
+    height: 63px;
+    padding-left: 19px;
+    border: none;
+}
+
+.lizing {
+    width: 160px;
+    margin: auto;
+}
+
+/* кнопка */
+.calculate {
+    background-color: black;
+    color: white;
+    padding: 0px 33px;
+    height: 58px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+}
+
+
+/* s6 section text - секция текст */
+.section_text {
+    display: flex;
+    gap: 15px;
+}
+
+.div_text {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 50%;
+}
+
+/* ====================================FOOTER================================== */
+footer {
+    background-color: black;
+    color: white;
+    padding: 60px;
+    margin-top: 65px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+}
+
+footer a {
+    color: white;
+}
+
+.footer {
+    display: flex;
+    gap: 50px;
+
+}
+
+.container_footer {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    max-width: 220px;
+}
+
+.footer button {
+    width: 219px;
+    height: 58px;
+    filter: drop-shadow(0px 0px 5.9px #FFD200);
+    background-color: #FFD200;
+    border: none;
+    font-size: 18px;
+    color: #000000;
+}
+
+.contact_footer {
+    margin-left: 100px;
+}
+
+.contact_footer a:hover {
+    opacity: .7;
+}
+
+.logo_v2 {
+    width: 217px;
+    height: 42px;
+    object-fit: contain;
+}
+
+.online_lizing .personal_data,
+.online_lizing .personal_data a {
+    color: black;
+}
+
+/* ====================================ADAPTIVE================================== */
+
+@media(max-width:1600px) {
+    .container_advantages {
+        gap: 10px;
+    }
+
+    .div_advantages {
+        padding-bottom: 20px;
+    }
+
+    .black_form {
+        padding-bottom: 50px;
+    }
+
+}
+
+@media(max-width:1520px) {
+    .logo_v2 {
+        width: 331px;
+        height: 65px;
+    }
+}
+
+@media(max-width:1475px) {
+    .w-normal {
+        width: 90%;
+    }
+
+    .container_leasing img {
+        width: 616px;
+        object-fit: contain;
+    }
+
+    header {
+        padding-bottom: 0px;
+    }
+
+    /* текст СПЕЦТЕХНИКА В ЛИЗИНГ */
+    h3 {
+        font-size: 190px;
+        top: 200px;
+    }
+
+    h4 {
+        font-size: 70px;
+        top: 120px;
+    }
+}
+
+@media(max-width:1312px) {
+    .section_steps {
+        width: 99%;
+        flex-wrap: nowrap;
+        padding-left: 10px;
+    }
+
+    .container_leasing img {
+        width: 563px;
+    }
+
+    /* текст СПЕЦТЕХНИКА В ЛИЗИНГ */
+    h3 {
+        font-size: 170px;
+        top: 160px;
+    }
+
+    h4 {
+        font-size: 60px;
+        top: 120px;
+    }
+
+    .form_header input[type="text"],
+    .form_header input[type="tel"],
+    .form_header input[type="email"] {
+        width: 270px;
+    }
+
+    .form_header div {
+        padding-right: 0px;
+    }
+}
+
+@media(max-width:1210px) {
+    .contact_footer {
+        margin-left: 0px;
+    }
+
+    .form_header input[type="text"],
+    .form_header input[type="tel"],
+    .form_header input[type="email"] {
+        width: 240px;
+    }
+}
+
+@media(max-width:1200px) {
+    .w-60 {
+        width: 80%;
+    }
+
+    .steps {
+        width: 270px;
+    }
+
+    h5 {
+        font-size: 160px;
+    }
+
+    .container_leasing {
+        flex-wrap: wrap;
+        margin-top: 50px;
+    }
+
+    .container_leasing img {
+        margin-top: -100px;
+    }
+
+    .leasing_rectangle {
+        align-self: flex-start;
+        margin-left: 100px;
+        margin-top: 300px;
+        position: absolute;
+    }
+}
+
+@media(max-width:1165px) {
+    .icons_advantages {
+        gap: 0px;
+    }
+
+    /* текст СПЕЦТЕХНИКА В ЛИЗИНГ */
+    h3 {
+        font-size: 150px;
+        top: 130px;
+    }
+
+    h4 {
+        font-size: 50px;
+        top: 100px;
+    }
+}
+
+@media (max-width: 1120px) {
+    iframe {
+        height: 1700px;
+    }
+}
+
+@media(max-width:1095px) {
+    .div_advantages {
+        gap: 20px;
+    }
+
+    .advantages {
+        width: 153px;
+    }
+
+    .form_header input[type="text"],
+    .form_header input[type="tel"],
+    .form_header input[type="email"] {
+        width: 210px;
+    }
+
+    /* текст СПЕЦТЕХНИКА В ЛИЗИНГ */
+    h3 {
+        font-size: 130px;
+        top: 110px;
+    }
+
+    h4 {
+        font-size: 50px;
+        top: 100px;
+    }
+}
+
+@media (max-width: 1056px) {
+    iframe {
+        height: 1800px;
+    }
+}
+
+@media(max-width:1010px) {
+    .footer {
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    .container_steps {
+        gap: 50px;
+    }
+
+    .form_header div {
+        margin-top: 0px;
+    }
+
+    .form_header input[type="text"],
+    .form_header input[type="tel"],
+    .form_header input[type="email"] {
+        width: 45%;
+    }
+
+    .header_button {
+        width: 45%;
+    }
+
+    .leasing_rectangle {
+        margin-left: 0px;
+    }
+}
+
+@media(max-width:927px) {
+    .steps {
+        width: 335px;
+    }
+
+    .icons_advantages {
+        gap: 10px;
+    }
+
+    .advantages {
+        width: 103px;
+    }
+
+    /* текст СПЕЦТЕХНИКА В ЛИЗИНГ */
+    h3 {
+        font-size: 110px;
+        top: 50px;
+    }
+
+    h4 {
+        font-size: 40px;
+        top: 50px;
+    }
+
+    header {
+        padding: 15px;
+        padding-bottom: 0px;
+    }
+}
+
+@media(max-width:850px) {
+
+    /* текст СПЕЦТЕХНИКА В ЛИЗИНГ */
+    h3 {
+        font-size: 110px;
+        top: 50px;
+    }
+
+    h4 {
+        font-size: 40px;
+        top: 50px;
+    }
+}
+
+@media(max-width:800px) {
+    .w-60 {
+        width: 95%;
+    }
+
+    .container_advantages {
+        flex-direction: column;
+    }
+
+    .container_advantages img {
+        margin-bottom: 50px;
+        width: 100%;
+    }
+
+    .advantages {
+        width: 186px;
+    }
+
+    .advantages img {
+        margin-bottom: 0px;
+        width: 53px;
+    }
+
+    .orange_rectangle {
+        width: 82px;
+        height: 218px;
+        margin-left: -50px;
+        padding-left: 50px;
+    }
+
+    .button_call {
+        display: none;
+    }
+
+    .div_call {
+        gap: 0px;
+    }
+    .leasing_rectangle {
+        margin-left: -50px;
+    }
+}
+
+@media(max-width:700px) {
+    .slider {
+        width: 500px;
+    }
+    .slider_leasing .slick-prev {
+        left: 398px;
+
+    }
+}
+
+@media(max-width:660px) {
+    .online_lizing {
+        padding: 60px 30px;
+    }
+
+    .online_lizing input[type="text"],
+    .online_lizing input[type="tel"],
+    .online_lizing input[type="email"] {
+        height: 50px;
+    }
+
+    .advantages {
+        width: 150px;
+    }
+
+    header {
+        background-size: 150%;
+        padding-bottom: 160px;
+        background-position-x: -80px;
+    }
+
+    h3 {
+        font-size: 90px;
+    }
+}
+
+@media(max-width:630px) {
+    .footer {
+        flex-direction: column;
+    }
+
+}
+
+@media(max-width:600px) {
+    .section_text {
+        flex-wrap: wrap;
+    }
+
+    .div_text {
+        width: 100%;
+    }
+
+    .container_advantages2 img {
+        width: 100%;
+    }
+
+    .div_advantages2 {
+        position: absolute;
+        right: auto;
+        margin-left: 50px;
+    }
+    .container_leasing img {
+        width: 130%;
+    }
+
+}
+
+@media(max-width:575px) {
+    .slider {
+        width: 400px;
+        height: auto;
+    }
+    .slider_leasing .slick-prev {
+        left: 304px;
+
+    }
+}
+
+@media(max-width:545px) {
+    .icons_advantages {
+        justify-content: center;
+        gap: 30px;
+    }
+
+    .advantages {
+        width: 190px;
+    }
+
+    header {
+        background-size: 170%;
+        padding-bottom: 160px;
+        background-position-x: -80px;
+    }
+}
+
+@media(max-width:505px) {
+    .logo_img {
+        width: 150px;
+    }
+
+    header {
+        background-size: 190%;
+        padding-bottom: 240px;
+        background-position-x: -80px;
+    }
+}
+
+@media(max-width:470px) {
+    .online_lizing div {
+        flex-wrap: wrap;
+    }
+
+    .orange_rectangle {
+        width: 52px;
+        height: 156px;
+        padding-left: 30px;
+    }
+
+    .form_header input[type="text"],
+    .form_header input[type="tel"],
+    .form_header input[type="email"],
+    .header_button {
+        width: 80%;
+    }
+
+    .slider_buttons {
+        padding: 0px;
+    }
+    .slider {
+        width: 130%;
+        padding-bottom: 20px;
+    }
+}
+
+@media(max-width:430px) {
+    .div_number img {
+        width: 13px;
+        height: 13px;
+    }
+
+    h2 {
+        font-size: 17px;
+    }
+
+    header {
+        background-size: 180%;
+        padding-bottom: 180px;
+        background-position-x: -80px;
+    }
+
+    /* текст СПЕЦТЕХНИКА В ЛИЗИНГ */
+    h3 {
+        font-size: 70px;
+        top: 30px;
+    }
+
+    h4 {
+        font-size: 30px;
+        top: 50px;
+    }
+
+    .leasing_rectangle {
+        margin-top: 350px;
+    }
+}
+
+@media(max-width:400px) {
+    .logo_img {
+        width: 120px;
+    }
+    .leasing_rectangle {
+        margin-top: 400px;
+    }
+}
+
+@media (max-width: 370px) {
+    iframe {
+        height: 1900px;
+    }
+}
+
+@media(max-width:370px) {
+    .logo_v2 {
+        width: 280px;
+    }
+
+    .w-60 {
+        width: 100%;
+    }
+
+    .section_text {
+        padding-left: 10px;
+    }
+
+    .steps {
+        width: 270px;
+    }
+
+    .form_header input[type="text"],
+    .form_header input[type="tel"],
+    .form_header input[type="email"],
+    .header_button {
+        width: 100%;
+    }
+
+    .div_number img {
+        width: 11px;
+        height: 11px;
+    }
+
+    h2 {
+        font-size: 14px;
+    }
+
+    /* текст СПЕЦТЕХНИКА В ЛИЗИНГ */
+    h3 {
+        font-size: 60px;
+        top: 10px;
+    }
+
+    h4 {
+        font-size: 30px;
+        top: 40px;
+    }
+}
+
+@media(max-width:353px) {
+    .online_lizing .personal_data {
+        justify-content: start;
+    }
+
+    .logo_img {
+        width: 80px;
+    }
+
+    .div_number {
+        gap: 5px;
+    }
+
+    .slider {
+        width: 150%;
+        margin-right: 0px;
+    }
+    .container_leasing img {
+        width: 150%;
+    }
+}
+
+@media(max-width: 340px) {
+    header {
+        background-size: 200%;
+        padding-bottom: 200px;
+        background-position-x: -60px;
+    }
+    .leasing_rectangle {
+        margin-top: 450px;
+    }
+}
+
+@media(max-width:330px) {
+    .logo_v2 {
+        width: 230px;
+    }
+
+    .container_leasing {
+        width: 120%;
+    }
+    .about_leasing {
+        padding: 10px;
+    }
+    .slider {
+        width: 90%;
+        margin-right: 50px;
+    }
+    .container_leasing img {
+        width: 110%;
+        padding-right: 50px;
+    }
+    .slider_leasing {
+        padding: 10px 30px;
+    }
+}
+
+@media(max-width:300px) {
+    .online_lizing {
+        padding: 40px 5px;
+    }
+
+    .steps {
+        width: 230px;
+    }
+
+    .div_arrow {
+        margin-left: 0px;
+    }
+
+    .div_advantages2 {
+        margin-bottom: 50px;
+        margin-top: 50px;
+    }
+
+    header {
+        background-size: 210%;
+        padding-bottom: 180px;
+        background-position-x: -80px;
+    }
+
+    /* текст СПЕЦТЕХНИКА В ЛИЗИНГ */
+    h3 {
+        font-size: 50px;
+        top: 0px;
+    }
+
+    h4 {
+        font-size: 25px;
+        top: 30px;
+    }
+}
